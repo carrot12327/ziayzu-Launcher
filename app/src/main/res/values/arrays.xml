@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="render_distance_entries">
+        <item>4 chunks</item>
+        <item>6 chunks</item>
+        <item>8 chunks</item>
+        <item>10 chunks</item>
+        <item>12 chunks</item>
+        <item>16 chunks</item>
+    </string-array>
+    
+    <string-array name="render_distance_values">
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>16</item>
+    </string-array>
+    
+    <string-array name="fps_limit_entries">
+        <item>30 FPS</item>
+        <item>60 FPS</item>
+        <item>120 FPS</item>
+        <item>Unlimited</item>
+    </string-array>
+    
+    <string-array name="fps_limit_values">
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>0</item>
+    </string-array>
+    
+</resources>
