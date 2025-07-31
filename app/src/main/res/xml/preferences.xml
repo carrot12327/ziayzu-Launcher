@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/pref_category_general">
+
+        <EditTextPreference
+            android:key="username"
+            android:title="@string/pref_username_title"
+            android:summary="@string/pref_username_summary"
+            android:defaultValue="@string/default_username"
+            android:inputType="text" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_category_graphics">
+
+        <ListPreference
+            android:key="render_distance"
+            android:title="@string/pref_render_distance_title"
+            android:summary="@string/pref_render_distance_summary"
+            android:entries="@array/render_distance_entries"
+            android:entryValues="@array/render_distance_values"
+            android:defaultValue="8" />
+
+        <ListPreference
+            android:key="fps_limit"
+            android:title="@string/pref_fps_limit_title"
+            android:summary="@string/pref_fps_limit_summary"
+            android:entries="@array/fps_limit_entries"
+            android:entryValues="@array/fps_limit_values"
+            android:defaultValue="60" />
+
+        <SwitchPreference
+            android:key="fullscreen"
+            android:title="@string/pref_fullscreen_title"
+            android:summary="@string/pref_fullscreen_summary"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_category_controls">
+
+        <SeekBarPreference
+            android:key="touch_sensitivity"
+            android:title="@string/pref_touch_sensitivity_title"
+            android:summary="@string/pref_touch_sensitivity_summary"
+            android:max="100"
+            android:defaultValue="50" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
